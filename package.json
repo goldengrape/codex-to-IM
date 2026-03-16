@@ -1,0 +1,20 @@
+{
+  "name": "codex-to-im",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Codex-to-Telegram MVP core implemented from the docs specification.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "luxon": "^3.6.1"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^24.6.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
